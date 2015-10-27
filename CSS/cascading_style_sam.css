@@ -9,6 +9,11 @@ body{
         background-color: red;
     }
 }*/
+
+/* ------------------------------ */
+/* ---------- CONTAINER --------- */
+/* ------------------------------ */
+
 .container{
     margin-right: 2.5%;
     margin-left: 2.5%;
@@ -27,6 +32,11 @@ body{
         margin-right: 12.5%;
     }
 }
+
+/* ------------------------------ */
+/* -------- MAIN-CONTENT -------- */
+/* ------------------------------ */
+
 .main-content-panel {
     min-height: 800px;
     border: 1px solid;
@@ -35,13 +45,20 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
 }
-.nav-bar-static{
-    /* Moves when content is scrolled */
+
+/* ------------------------------ */
+/* ----------- NAVBAR ----------- */
+/* ------------------------------ */
+
+.nav-bar{
     height: 70px;
     width: 100%;
+    background-color: orange;
+}
+.nav-bar-static{
+    /* Moves when content is scrolled */
     margin-bottom: 20px;
     border-radius: 15px;
-    background-color: orange;
     border: 1px solid;
 }
 .nav-bar-sticky {
@@ -50,30 +67,47 @@ body{
     top: 0px;
     left: 0px;
     right: 0px;
-    height: 70px;
-    width: 100%;
     position: fixed;
-    background-color: orange;
     border-bottom: 1px solid;
 }
-.footer-static{
-    /* Moves when content is scrolled */
+.nav-bar .title{
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 15px;
+    padding-left: 5%;
+}
+@media only screen and (min-width: 768px) {
+    /* Tablet size */
+    .nav-bar .title {
+        margin-left: 7.5%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* Monitor size */
+    .nav-bar .title {
+        margin-left: 12.5%;
+    }
+}
+
+/* ------------------------------ */
+/* ----------- FOOTER ----------- */
+/* ------------------------------ */
+.footer{
     height: 110px;
     left: 0px;
     right: 0px;
-    margin-top: 20px;
     background-color: orange;
-    border-top: 1px solid;
+}
 
+.footer-static{
+    /* Moves when content is scrolled */
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 25px;
 }
 .footer-sticky {
     /* Sticks to the bottom of the page */
     bottom: 0px;
-    left: 0px;
-    right: 0px;
     position: fixed;
-    height: 110px;
-    margin-top: 15px;
-    background-color: orange;
     border-top: 1px solid;
 }
