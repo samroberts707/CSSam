@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: lightblue;
     padding-top: 70px;
+    margin-bottom: 120px;
 }
 /*Testing @media responsive CSS
 @media only screen and (orientation : landscape) {
@@ -45,6 +46,22 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
 }
+.main-content-panel .heading {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.main-content-panel .subtitle{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+.main-content-panel .sub-heading {
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+}
 
 /* ------------------------------ */
 /* ----------- NAVBAR ----------- */
@@ -70,7 +87,7 @@ body{
     position: fixed;
     border-bottom: 1px solid;
 }
-.nav-bar .title{
+.nav-bar .heading {
     font-weight: bold;
     font-size: 32px;
     padding-top: 15px;
@@ -78,20 +95,29 @@ body{
 }
 @media only screen and (min-width: 768px) {
     /* Tablet size */
-    .nav-bar .title {
+    .nav-bar .heading {
         margin-left: 7.5%;
     }
 }
 @media only screen and (min-width: 1200px) {
     /* Monitor size */
-    .nav-bar .title {
+    .nav-bar .heading {
         margin-left: 12.5%;
     }
+}
+
+.nav-bar-controls {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-bar-controls .right{
+    float: right;
 }
 
 /* ------------------------------ */
 /* ----------- FOOTER ----------- */
 /* ------------------------------ */
+
 .footer{
     height: 110px;
     left: 0px;
@@ -107,6 +133,7 @@ body{
 }
 .footer-sticky {
     /* Sticks to the bottom of the page */
+    /* When adding footer-sticky add margin-bottom: 120px; to body */
     bottom: 0px;
     position: fixed;
     border-top: 1px solid;
