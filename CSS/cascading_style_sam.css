@@ -53,14 +53,14 @@ body{
     font-size: 36px;
 }
 .main-content-panel .subtitle{
-    text-align: center;
     font-style: italic;
     font-size: 14px;
+    font-weight: normal;
 }
 .main-content-panel .sub-heading {
     text-align: left;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 /* ------------------------------ */
