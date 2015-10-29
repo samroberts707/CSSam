@@ -35,21 +35,21 @@ body{
 }
 
 /* ------------------------------ */
-/* ----------- NAVBAR ----------- */
+/* --------- NAVBAR-TOP --------- */
 /* ------------------------------ */
 
-.nav-bar{
+.nav-bar-top {
     height: 70px;
     width: 100%;
     background-color: orange;
 }
-.nav-bar-static{
+.nav-bar-top-static {
     /* Moves when content is scrolled */
     margin-bottom: 20px;
     border-radius: 15px;
     border: 1px solid;
 }
-.nav-bar-sticky {
+.nav-bar-top-sticky {
     /* Sticks to the top of the page when content is scrolled */
     /* Make sure to add padding-top: 70px; to your body when using nav-bar-sticky */
     top: 0px;
@@ -58,7 +58,7 @@ body{
     position: fixed;
     border-bottom: 1px solid;
 }
-.nav-bar .heading {
+.nav-bar-top .heading {
     font-weight: bold;
     font-size: 32px;
     padding-top: 15px;
@@ -66,13 +66,13 @@ body{
 }
 @media only screen and (min-width: 768px) {
     /* Tablet size */
-    .nav-bar .heading {
+    .nav-bar-top .heading {
         margin-left: 7.5%;
     }
 }
 @media only screen and (min-width: 1200px) {
     /* Monitor size */
-    .nav-bar .heading {
+    .nav-bar-top .heading {
         margin-left: 12.5%;
     }
 }
@@ -86,7 +86,7 @@ body{
 }
 
 /* ------------------------------ */
-/* -------- Full-Page-Panel -------- */
+/* ------- Full-Page-Panel ------ */
 /* ------------------------------ */
 
 .full-page-panel {
@@ -144,7 +144,7 @@ body{
 }
 
 /* ------------------------------ */
-/* ----- Quarter-Page-Panels ----- */
+/* ---- Quarter-Page-Panels ----- */
 /* ------------------------------ */
 
 .quarter-page-panel {
