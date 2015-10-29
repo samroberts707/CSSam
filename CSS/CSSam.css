@@ -10,27 +10,50 @@ body{
         background-color: red;
     }
 }*/
-
+@keyframes margin0-5 {
+    0% {margin-left: 7.5%;  margin-right: 7.5%;}
+    100% {margin-left: 2.5%; margin-right: 2.5%;}
+}
+@keyframes margin5-15 {
+    0% {margin-left: 2.5%;  margin-right: 2.5%;}
+    100% {margin-left: 7.5%; margin-right: 7.5%;}
+}
+@keyframes margin15-25 {
+    0% {margin-left: 7.5%;  margin-right: 7.5%;}
+    100% {margin-left: 12.5%; margin-right: 12.5%;}
+}
 /* ------------------------------ */
 /* ---------- CONTAINER --------- */
 /* ------------------------------ */
 
 .container{
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    -webkit-animation-name: margin0-5;
+    -moz-animation-name: margin0-5;
+    -o-animation-name: margin0-5;
+    animation-name: margin0-5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 @media only screen and (min-width: 768px) {
     /* Tablet size */
     .container {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
+        -webkit-animation-name: margin5-15;
+        -moz-animation-name: margin5-15;
+        -o-animation-name: margin5-15;
+        animation-name: margin5-15;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 }
 @media only screen and (min-width: 1200px) {
     /* Monitor size */
     .container {
-        margin-left: 12.5%;
-        margin-right: 12.5%;
+        -webkit-animation-name: margin15-25;
+        -moz-animation-name: margin15-25;
+        -o-animation-name: margin15-25;
+        animation-name: margin15-25;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 }
 
@@ -84,6 +107,12 @@ body{
 .nav-bar-controls .right{
     float: right;
 }
+
+/* ------------------------------ */
+/* -------- NAVBAR-SIDE --------- */
+/* ------------------------------ */
+
+
 
 /* ------------------------------ */
 /* ------- Full-Page-Panel ------ */
@@ -160,6 +189,20 @@ body{
     left: 0px;
     right: 0px;
     background-color: orange;
+}
+@media only screen and (min-width: 768px) {
+    /* Tablet size */
+    .footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* Monitor size */
+    .footer {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
 }
 
 .footer-static{
