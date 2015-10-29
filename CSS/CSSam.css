@@ -86,10 +86,10 @@ body{
 }
 
 /* ------------------------------ */
-/* -------- MAIN-CONTENT -------- */
+/* -------- Full-Page-Panel -------- */
 /* ------------------------------ */
 
-.main-content-panel {
+.full-page-panel {
     min-height: 800px;
     border: 1px solid;
     border-radius: 25px;
@@ -97,18 +97,18 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
 }
-.main-content-panel .heading {
+.full-page-panel .heading {
     text-align: center;
     margin-top: 0px;
     font-weight: bold;
     font-size: 36px;
 }
-.main-content-panel .subtitle{
+.full-page-panel .subtitle{
     font-style: italic;
     font-size: 14px;
     font-weight: normal;
 }
-.main-content-panel .sub-heading {
+.full-page-panel .sub-heading {
     text-align: left;
     font-weight: bold;
     font-size: 22px;
@@ -138,6 +138,14 @@ body{
 }
 .half-page-panel.right{
     float: right;
+}
+
+/* ------------------------------ */
+/* ----- Quarter-Page-Panels ----- */
+/* ------------------------------ */
+
+.quarter-page-panel {
+    margin-top: 10px;
 }
 
 /* ------------------------------ */
