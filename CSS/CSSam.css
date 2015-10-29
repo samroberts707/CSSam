@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: lightblue;
     padding-top: 70px;
-    margin-bottom: 120px;
+    margin-bottom: 200px;
 }
 /*Testing @media responsive CSS
 @media only screen and (orientation : landscape) {
@@ -68,6 +68,7 @@ body{
 }
 .nav-bar-top-static {
     /* Moves when content is scrolled */
+
     margin-bottom: 20px;
     border-radius: 15px;
     border: 1px solid;
@@ -190,27 +191,26 @@ body{
     right: 0px;
     background-color: orange;
 }
-@media only screen and (min-width: 768px) {
-    /* Tablet size */
-    .footer {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    /* Monitor size */
-    .footer {
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-    }
-}
-
 .footer-static{
     /* Moves when content is scrolled */
     clear: both;
     margin-top: 20px;
     border: 1px solid;
     border-radius: 25px;
+}
+@media only screen and (min-width: 768px) {
+    /* Tablet size */
+    .footer-static {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* Monitor size */
+    .footer-static {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
 }
 .footer-sticky {
     /* Sticks to the bottom of the page */
