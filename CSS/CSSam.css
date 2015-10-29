@@ -248,13 +248,35 @@ body{
     background-color: blue;
     border-color: blue;
 }
+@keyframes  success-label {
+    0% {background-color: limegreen;
+        border-color: limegreen;}
+    100% {background-color: lawngreen;
+        border-color: lawngreen;}
+}
 .label.label-success{
     background-color: limegreen;
     border-color: limegreen;
 }
-.label.label-warning{
+.label.label-success-animated {
+    -webkit-animation: success-label 500ms infinite;
+    -o-animation: success-label 500ms infinite;
+    animation: success-label 500ms infinite;
+}
+@keyframes warning-label {
+    0% {background-color: orange;
+        border-color: orange;}
+    100% {background-color: orangered;
+        border-color: orangered;}
+}
+.label-warning{
     background-color: orange;
     border-color: orange;
+}
+.label.label-warning-animated {
+    -webkit-animation: warning-label 500ms infinite;
+    -o-animation: warning-label 500ms infinite;
+    animation: warning-label 500ms infinite;
 }
 @keyframes danger-label {
     0% {background-color: red;
@@ -263,6 +285,10 @@ body{
         border-color: darkred;}
 }
 .label.label-danger{
+    background-color: red;
+    border-color: red;
+}
+.label.label-danger-animated {
     -webkit-animation: danger-label 500ms infinite;
     -o-animation: danger-label 500ms infinite;
     animation: danger-label 500ms infinite;
