@@ -35,35 +35,6 @@ body{
 }
 
 /* ------------------------------ */
-/* -------- MAIN-CONTENT -------- */
-/* ------------------------------ */
-
-.main-content-panel {
-    min-height: 800px;
-    border: 1px solid;
-    border-radius: 25px;
-    box-shadow: 1px 1px 30px #888888;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 20px;
-}
-.main-content-panel .heading {
-    text-align: center;
-    margin-top: 0px;
-    font-weight: bold;
-    font-size: 36px;
-}
-.main-content-panel .subtitle{
-    font-style: italic;
-    font-size: 14px;
-    font-weight: normal;
-}
-.main-content-panel .sub-heading {
-    text-align: left;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-/* ------------------------------ */
 /* ----------- NAVBAR ----------- */
 /* ------------------------------ */
 
@@ -111,6 +82,61 @@ body{
     display: inline-block;
 }
 .nav-bar-controls .right{
+    float: right;
+}
+
+/* ------------------------------ */
+/* -------- MAIN-CONTENT -------- */
+/* ------------------------------ */
+
+.main-content-panel {
+    min-height: 800px;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px #888888;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+}
+.main-content-panel .heading {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.main-content-panel .subtitle{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: normal;
+}
+.main-content-panel .sub-heading {
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* ------------------------------ */
+/* ------ Half-Page-Panels ------ */
+/* ------------------------------ */
+
+.half-page-panel {
+    margin-top: 20px;
+    width: 45%;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 1px 1px 30px #888888;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 200px;
+    padding: 10px;
+}
+@media only screen and (max-width: 595px) {
+    .half-page-panel{
+        width: 43%;
+    }
+}
+.half-page-panel.left {
+    float: left;
+}
+.half-page-panel.right{
     float: right;
 }
 
