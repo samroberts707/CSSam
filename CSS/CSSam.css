@@ -229,3 +229,41 @@ body{
     position: fixed;
     border-top: 1px solid;
 }
+
+/* ------------------------------ */
+/* ----------- LABELS ----------- */
+/* ------------------------------ */
+
+.label{
+    border: 1px solid;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+.label.label-default{
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+.label.label-primary{
+    background-color: blue;
+    border-color: blue;
+}
+.label.label-success{
+    background-color: limegreen;
+    border-color: limegreen;
+}
+.label.label-warning{
+    background-color: orange;
+    border-color: orange;
+}
+@keyframes danger-label {
+    0% {background-color: red;
+        border-color: red;}
+    100% {background-color: darkred;
+        border-color: darkred;}
+}
+.label.label-danger{
+    -webkit-animation: danger-label 500ms infinite;
+    -o-animation: danger-label 500ms infinite;
+    animation: danger-label 500ms infinite;
+}
