@@ -86,27 +86,31 @@ body{
     font-weight: bold;
     font-size: 32px;
     padding-top: 15px;
-    padding-left: 5%;
-}
-@media only screen and (min-width: 768px) {
-    /* Tablet size */
-    .nav-bar-top .heading {
-        margin-left: 7.5%;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    /* Monitor size */
-    .nav-bar-top .heading {
-        margin-left: 12.5%;
-    }
+    float: left;
+    margin-right: 30px;
 }
 
-.nav-bar-controls {
+.nav-bar-top-controls {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
+    margin: 0px;
+
 }
-.nav-bar-controls .right{
+.nav-bar-top-controls.right{
     float: right;
+}
+.nav-bar-top-controls li{
+    float: left;
+    padding: 25px;
+    border: 1px solid;
+    background-color: purple;
+}
+.nav-bar-top-controls li:hover{
+    background-color: green;
+}
+.nav-bar-top-controls a {
+    display: block;
+    text-align: center;
 }
 
 /* ------------------------------ */
