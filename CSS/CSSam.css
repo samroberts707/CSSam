@@ -90,7 +90,9 @@ body{
 /* ------------------------------ */
 
 .full-page-panel {
-    min-height: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 200px;
     border: 1px solid;
     border-radius: 25px;
     box-shadow: 1px 1px 30px #888888;
@@ -119,7 +121,8 @@ body{
 /* ------------------------------ */
 
 .half-page-panel {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 45%;
     border: 1px solid;
     border-radius: 25px;
@@ -161,6 +164,7 @@ body{
 
 .footer-static{
     /* Moves when content is scrolled */
+    clear: both;
     margin-top: 20px;
     border: 1px solid;
     border-radius: 25px;
