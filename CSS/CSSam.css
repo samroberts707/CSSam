@@ -240,19 +240,47 @@ body{
     font-weight: bold;
     padding: 5px;
 }
+@keyframes default-label {
+    0% {background-color: darkgray;
+        border-color: darkgray;}
+    50% {background-color: dimgray;
+        border-color: dimgray;}
+    100% {background-color: darkgray;
+        border-color: darkgray;}
+}
 .label.label-default{
     background-color: darkgrey;
     border-color: darkgrey;
 }
+.label.label-default-animated{
+    -webkit-animation: default-label 500ms infinite;
+    -o-animation: default-label 500ms infinite;
+    animation: default-label 500ms infinite;
+}
+@keyframes primary-label {
+    0% {background-color: deepskyblue;
+        border-color: deepskyblue;}
+    50% {background-color: darkblue;
+        border-color: darkblue;}
+    100% {background-color: deepskyblue;
+        border-color: deepskyblue;}
+}
 .label.label-primary{
-    background-color: blue;
-    border-color: blue;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+.label.label-primary-animated{
+    -webkit-animation: primary-label 500ms infinite;
+    -o-animation: primary-label 500ms infinite;
+    animation: primary-label 500ms infinite;
 }
 @keyframes  success-label {
     0% {background-color: limegreen;
         border-color: limegreen;}
-    100% {background-color: lawngreen;
+    50% {background-color: lawngreen;
         border-color: lawngreen;}
+    100%{background-color: limegreen;
+        border-color: limegreen;}
 }
 .label.label-success{
     background-color: limegreen;
@@ -266,8 +294,10 @@ body{
 @keyframes warning-label {
     0% {background-color: orange;
         border-color: orange;}
-    100% {background-color: orangered;
+    50% {background-color: orangered;
         border-color: orangered;}
+    100%{background-color: orange;
+        border-color: orange;  }
 }
 .label-warning{
     background-color: orange;
@@ -281,8 +311,10 @@ body{
 @keyframes danger-label {
     0% {background-color: red;
         border-color: red;}
-    100% {background-color: darkred;
+    50% {background-color: darkred;
         border-color: darkred;}
+    100%{background-color: red;
+        border-color: red;}
 }
 .label.label-danger{
     background-color: red;
