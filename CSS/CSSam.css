@@ -260,8 +260,8 @@ body{
 @keyframes primary-label {
     0% {background-color: deepskyblue;
         border-color: deepskyblue;}
-    50% {background-color: darkblue;
-        border-color: darkblue;}
+    50% {background-color: blue;
+        border-color: blue;}
     100% {background-color: deepskyblue;
         border-color: deepskyblue;}
 }
@@ -324,4 +324,66 @@ body{
     -webkit-animation: danger-label 500ms infinite;
     -o-animation: danger-label 500ms infinite;
     animation: danger-label 500ms infinite;
+}
+
+/* ------------------------------ */
+/* ----------- BUTTONS ---------- */
+/* ------------------------------ */
+
+.button {
+    border: 1px solid;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+}
+.button.button-default{
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+.button.button-default:hover{
+    background-color: grey;
+}
+.button.button-default:active{
+    background-color: dimgray;
+}
+.button.button-primary{
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+.button.button-primary:hover{
+    background-color: dodgerblue;
+}
+.button.button-primary:active{
+    background-color: blue;
+}
+.button.button-success{
+    background-color: limegreen;
+    border-color: limegreen;
+}
+.button.button-success:hover{
+    background-color: lawngreen;
+}
+.button.button-success:active{
+    background-color: lime;
+}
+.button.button-warning{
+    background-color: orange;
+    border-color: orange;
+}
+.button.button-warning:hover{
+    background-color: darkorange;
+}
+.button.button-warning:active{
+    background-color: orangered;
+}
+.button.button-danger{
+    background-color: red;
+    border-color: red;
+}
+.button.button-danger:hover{
+    background-color: #aa0000;
+}
+.button.button-danger:active{
+    background-color: darkred;
 }
