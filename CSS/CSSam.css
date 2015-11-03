@@ -248,11 +248,11 @@ body{
     100% {background-color: #a9a9a9;
         border-color: #a9a9a9;}
 }
-.label.label-default{
+.label.label-grey {
     background-color: #a9a9a9;
     border-color: #a9a9a9;
 }
-.label.label-default-animated{
+.label.label-grey-animated {
     -webkit-animation: default-label 500ms infinite;
     -o-animation: default-label 500ms infinite;
     animation: default-label 500ms infinite;
@@ -265,11 +265,11 @@ body{
     100% {background-color: #00CCFF;
         border-color: #00CCFF;}
 }
-.label.label-primary{
+.label.label-blue {
     background-color: #00CCFF;
     border-color: #00CCFF;
 }
-.label.label-primary-animated{
+.label.label-blue-animated {
     -webkit-animation: primary-label 500ms infinite;
     -o-animation: primary-label 500ms infinite;
     animation: primary-label 500ms infinite;
@@ -282,11 +282,11 @@ body{
     100%{background-color: #32CD32;
         border-color: #32CD32;}
 }
-.label.label-success{
+.label.label-green {
     background-color: #32CD32;
     border-color: #32CD32;
 }
-.label.label-success-animated {
+.label.label-green-animated {
     -webkit-animation: success-label 500ms infinite;
     -o-animation: success-label 500ms infinite;
     animation: success-label 500ms infinite;
@@ -299,11 +299,11 @@ body{
     100%{background-color: #FFAA00;
         border-color: #FFAA00;  }
 }
-.label-warning{
+.label-orange {
     background-color: #FFAA00;
     border-color: #FFAA00;
 }
-.label.label-warning-animated {
+.label.label-orange-animated {
     -webkit-animation: warning-label 500ms infinite;
     -o-animation: warning-label 500ms infinite;
     animation: warning-label 500ms infinite;
@@ -316,11 +316,11 @@ body{
     100%{background-color: #DD0000;
         border-color: #DD0000;}
 }
-.label.label-danger{
+.label.label-red {
     background-color: #DD0000;
     border-color: #DD0000;
 }
-.label.label-danger-animated {
+.label.label-red-animated {
     -webkit-animation: danger-label 500ms infinite;
     -o-animation: danger-label 500ms infinite;
     animation: danger-label 500ms infinite;
@@ -336,64 +336,65 @@ body{
     font-weight: bold;
     padding: 10px;
     font-size: 1em;
+    box-shadow: 4px 4px 10px #000000;
 }
-.button.button-default{
+.button.button-grey {
     background-color: #a9a9a9;
     border-color: #a9a9a9;
 }
-.button.button-default:hover{
+.button.button-grey:hover{
     background-color: #808080;
     border-color: #808080;
 }
-.button.button-default:active{
+.button.button-grey:active{
     background-color: #696969;
     border-color: #696969;
 }
-.button.button-primary{
+.button.button-blue {
     background-color: #00CCFF;
     border-color: #00CCFF;
 }
-.button.button-primary:hover{
+.button.button-blue:hover{
     background-color: #00AAFF;
     border-color: #00AAFF;
 }
-.button.button-primary:active{
+.button.button-blue:active{
     background-color: #0088FF;
     border-color: #0088FF;
 }
-.button.button-success{
+.button.button-green {
     background-color: #32CD32;
     border-color: #32CD32;
 }
-.button.button-success:hover{
+.button.button-green:hover{
     background-color: #16AB16;
     border-color: #16AB16;
 }
-.button.button-success:active{
+.button.button-green:active{
     background-color: #008900;
     border-color: #008900;
 }
-.button.button-warning{
+.button.button-orange {
     background-color: #FFAA00;
     border-color: #FFAA00;
 }
-.button.button-warning:hover{
+.button.button-orange:hover{
     background-color: #DD9900;
     border-color: #DD9900;
 }
-.button.button-warning:active{
+.button.button-orange:active{
     background-color: #CC8800;
     border-color: #CC8800;
 }
-.button.button-danger{
+.button.button-red {
     background-color: #DD0000;
     border-color: #DD0000;
 }
-.button.button-danger:hover{
+.button.button-red:hover{
     background-color: #BB0000;
     border-color: #BB0000;
 }
-.button.button-danger:active{
+.button.button-red:active{
     background-color: #990000;
     border-color: #990000;
 }
