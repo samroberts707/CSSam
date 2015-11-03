@@ -241,16 +241,16 @@ body{
     padding: 5px;
 }
 @keyframes default-label {
-    0% {background-color: darkgray;
-        border-color: darkgray;}
-    50% {background-color: dimgray;
-        border-color: dimgray;}
-    100% {background-color: darkgray;
-        border-color: darkgray;}
+    0% {background-color: #a9a9a9;
+        border-color: #a9a9a9;}
+    50% {background-color: #696969;
+        border-color: #696969;}
+    100% {background-color: #a9a9a9;
+        border-color: #a9a9a9;}
 }
 .label.label-default{
-    background-color: darkgrey;
-    border-color: darkgrey;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
 }
 .label.label-default-animated{
     -webkit-animation: default-label 500ms infinite;
@@ -258,16 +258,16 @@ body{
     animation: default-label 500ms infinite;
 }
 @keyframes primary-label {
-    0% {background-color: deepskyblue;
-        border-color: deepskyblue;}
-    50% {background-color: blue;
-        border-color: blue;}
-    100% {background-color: deepskyblue;
-        border-color: deepskyblue;}
+    0% {background-color: #00CCFF;
+        border-color: #00CCFF;}
+    50% {background-color: #0088FF;
+        border-color: #0088FF;}
+    100% {background-color: #00CCFF;
+        border-color: #00CCFF;}
 }
 .label.label-primary{
-    background-color: deepskyblue;
-    border-color: deepskyblue;
+    background-color: #00CCFF;
+    border-color: #00CCFF;
 }
 .label.label-primary-animated{
     -webkit-animation: primary-label 500ms infinite;
@@ -275,16 +275,16 @@ body{
     animation: primary-label 500ms infinite;
 }
 @keyframes  success-label {
-    0% {background-color: limegreen;
-        border-color: limegreen;}
-    50% {background-color: lawngreen;
-        border-color: lawngreen;}
-    100%{background-color: limegreen;
-        border-color: limegreen;}
+    0% {background-color: #32CD32;
+        border-color: #32CD32;}
+    50% {background-color: #008900;
+        border-color: #008900;}
+    100%{background-color: #32CD32;
+        border-color: #32CD32;}
 }
 .label.label-success{
-    background-color: limegreen;
-    border-color: limegreen;
+    background-color: #32CD32;
+    border-color: #32CD32;
 }
 .label.label-success-animated {
     -webkit-animation: success-label 500ms infinite;
@@ -292,16 +292,16 @@ body{
     animation: success-label 500ms infinite;
 }
 @keyframes warning-label {
-    0% {background-color: orange;
-        border-color: orange;}
-    50% {background-color: orangered;
-        border-color: orangered;}
-    100%{background-color: orange;
-        border-color: orange;  }
+    0% {background-color: #FFAA00;
+        border-color: #FFAA00;}
+    50% {background-color: #CC8800;
+        border-color: #CC8800;}
+    100%{background-color: #FFAA00;
+        border-color: #FFAA00;  }
 }
 .label-warning{
-    background-color: orange;
-    border-color: orange;
+    background-color: #FFAA00;
+    border-color: #FFAA00;
 }
 .label.label-warning-animated {
     -webkit-animation: warning-label 500ms infinite;
@@ -309,16 +309,16 @@ body{
     animation: warning-label 500ms infinite;
 }
 @keyframes danger-label {
-    0% {background-color: red;
-        border-color: red;}
-    50% {background-color: darkred;
-        border-color: darkred;}
-    100%{background-color: red;
-        border-color: red;}
+    0% {background-color: #DD0000;
+        border-color: #DD0000;}
+    50% {background-color: #990000;
+        border-color: #990000;}
+    100%{background-color: #DD0000;
+        border-color: #DD0000;}
 }
 .label.label-danger{
-    background-color: red;
-    border-color: red;
+    background-color: #DD0000;
+    border-color: #DD0000;
 }
 .label.label-danger-animated {
     -webkit-animation: danger-label 500ms infinite;
@@ -338,52 +338,62 @@ body{
     font-size: 1em;
 }
 .button.button-default{
-    background-color: darkgrey;
-    border-color: darkgrey;
+    background-color: #a9a9a9;
+    border-color: #a9a9a9;
 }
 .button.button-default:hover{
-    background-color: grey;
+    background-color: #808080;
+    border-color: #808080;
 }
 .button.button-default:active{
-    background-color: dimgray;
+    background-color: #696969;
+    border-color: #696969;
 }
 .button.button-primary{
-    background-color: deepskyblue;
-    border-color: deepskyblue;
+    background-color: #00CCFF;
+    border-color: #00CCFF;
 }
 .button.button-primary:hover{
-    background-color: dodgerblue;
+    background-color: #00AAFF;
+    border-color: #00AAFF;
 }
 .button.button-primary:active{
-    background-color: blue;
+    background-color: #0088FF;
+    border-color: #0088FF;
 }
 .button.button-success{
-    background-color: limegreen;
-    border-color: limegreen;
+    background-color: #32CD32;
+    border-color: #32CD32;
 }
 .button.button-success:hover{
-    background-color: lawngreen;
+    background-color: #16AB16;
+    border-color: #16AB16;
 }
 .button.button-success:active{
-    background-color: lime;
+    background-color: #008900;
+    border-color: #008900;
 }
 .button.button-warning{
-    background-color: orange;
-    border-color: orange;
+    background-color: #FFAA00;
+    border-color: #FFAA00;
 }
 .button.button-warning:hover{
-    background-color: darkorange;
+    background-color: #DD9900;
+    border-color: #DD9900;
 }
 .button.button-warning:active{
-    background-color: orangered;
+    background-color: #CC8800;
+    border-color: #CC8800;
 }
 .button.button-danger{
-    background-color: red;
-    border-color: red;
+    background-color: #DD0000;
+    border-color: #DD0000;
 }
 .button.button-danger:hover{
-    background-color: #aa0000;
+    background-color: #BB0000;
+    border-color: #BB0000;
 }
 .button.button-danger:active{
-    background-color: darkred;
+    background-color: #990000;
+    border-color: #990000;
 }
