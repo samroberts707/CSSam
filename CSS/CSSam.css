@@ -64,7 +64,7 @@ body{
 .nav-bar-top {
     height: 70px;
     width: 100%;
-    background-color: orange;
+    background-color: #FFFFFF;
 }
 .nav-bar-top-static {
     /* Moves when content is scrolled */
@@ -102,16 +102,24 @@ body{
 .nav-bar-top-controls li{
     float: left;
     padding: 25px;
-    border: 1px dashed;
-    background: #00ff00;
+    background-color: #00CCFF;
 }
 .nav-bar-top-controls li:hover{
-    background: #00ff00;
-    background-image: -webkit-linear-gradient(top, #00ff00, #00ffc8);
-    background-image: -moz-linear-gradient(top, #00ff00, #00ffc8);
-    background-image: -ms-linear-gradient(top, #00ff00, #00ffc8);
-    background-image: -o-linear-gradient(top, #00ff00, #00ffc8);
-    background-image: linear-gradient(to bottom, #00ff00, #00ffc8);
+    background: #00CCFF;
+    background-image: -webkit-linear-gradient(top, #00CCFF, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #00CCFF, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #00CCFF, #FFFFFF);
+    background-image: -o-linear-gradient(top, #00CCFF, #FFFFFF);
+    background-image: linear-gradient(to bottom, #00CCFF, #FFFFFF);
+    text-decoration: none;
+}
+.nav-bar-top-controls li:active{
+    background: #00AADD;
+    background-image: -webkit-linear-gradient(top, #00AADD, #DDDDDD);
+    background-image: -moz-linear-gradient(top, #00AADD, #DDDDDD);
+    background-image: -ms-linear-gradient(top, #00AADD, #DDDDDD);
+    background-image: -o-linear-gradient(top, #00AADD, #DDDDDD);
+    background-image: linear-gradient(to bottom, #00AADD, #DDDDDD);
     text-decoration: none;
 }
 .nav-bar-top-controls a {
@@ -199,7 +207,7 @@ body{
     height: 110px;
     left: 0px;
     right: 0px;
-    background-color: orange;
+    background-color: #FFFFFF;
 }
 .footer-static{
     /* Moves when content is scrolled */
